@@ -1,0 +1,11 @@
+LOCATORS-
+
+Xpath >>>
+
+when not mention any fields like //input[@id='dinesh'] >>then we can use astrick > //*[@id='dinesh'] . It will find if id is unique in current page.
+
+using or operator in xpath like //input[@id='dinesh' or @name='dinesh']
+
+Relative xapth > parent node to child --all path
+
+Relative with absolute xapth>> a combination of two>> //tagname[@attribute='value of attribute']/tagname/tagname
