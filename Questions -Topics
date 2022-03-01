@@ -1,2 +1,13 @@
-why we need .poi in pom.xml
+Q: why we need .poi in pom.xml
 ans: using this we can read the excel files in selenium.
+
+Q: why we need config.properties file?
+ans: values that are going to be contant throughout like homepage/base URL of website. Can include username/password, browsers.
+
+>>in Maven project, we do get POM.xml file by default.
+
+Q: what is pom.xml
+ans: POM is an acronym for Project Object Model. The pom.xml file contains information of project and configuration information for the maven to build the project such as dependencies, build directory, source directory, test source directory, plugin, goals etc.Maven reads the pom.xml file, then executes the goal.
+Before maven 2, it was named as project.xml file. But, since maven 2 (also in maven 3), it is renamed as pom.xml.
+>>In eclipse it will autom,atically download jar files. we have to tell pom.xml what dependcies we need.
+
